@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "speedrun-af117"
+  },
+  "targets": {
+    "speedrun-af117": {
+      "hosting": {
+        "speedrun": [
+          "speedrun-af117"
+        ]
+      }
+    }
+  }
+}

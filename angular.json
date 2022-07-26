@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "speedrun:build:production",
+            "firebaseProject": "speedrun-af117",
+            "firebaseHostingSite": "speedrun-af117"
+          }
         }
       }
     }
